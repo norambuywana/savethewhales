@@ -1,0 +1,18 @@
+{
+    "herosize":[
+        
+        {
+        
+            "jump": [
+                {"width": 95, "height": 195}
+            ],
+            "duck": [
+                {"width": 130, "height": 195}
+            ],
+            "walk": [
+                {"width": 95, "height": 197}
+            ]
+
+        }
+    ]
+}

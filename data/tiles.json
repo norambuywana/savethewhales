@@ -1,0 +1,31 @@
+{
+
+"images": [
+    "spritesheets/tiles.png"
+],
+
+"frames": [
+    [1, 1, 71, 55, 0, 0, 0],
+    [1, 58, 80, 55, 0, 0, 0],
+    [1, 115, 30, 10, 0, 0, 0],
+    [33, 115, 50, 25, 0, 0, 0],
+    [1, 142, 80, 55, 0, 0, 0],
+    [1, 199, 80, 55, 0, 0, 0],
+    [1, 256, 90, 250, 0, 0, 0],
+    [1, 508, 90, 250, 0, 0, 0],
+    [1, 760, 80, 55, 0, 0, 0]
+],
+
+"animations": {
+    "chair-back": { "frames": [0] },
+    "chair-legs": { "frames": [1] },
+    "flashlight": { "frames": [2] },
+    "light-wood": { "frames": [3] },
+    "sofa-bottom": { "frames": [4] },
+    "sofa-cushion": { "frames": [5] },
+    "white-door-window": { "frames": [6] },
+    "white-door": { "frames": [7] },
+    "wood-floor-light": { "frames": [8] }
+}
+
+}

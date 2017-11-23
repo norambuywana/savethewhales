@@ -1,0 +1,304 @@
+{
+    "levels":[
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "ground-sand", "repeat": 25, "emptyspace": 0}
+            ],
+            "hardPlatforms":[
+                {"x": 385, "y": 555, "width": 140, "height": 70, "sprite": "tree-stump", "repeat": 1},
+                {"x": 1008, "y": 342, "width": 355, "height": 8, "sprite": "parasol-step-invis", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 735, "y": 260, "width": 95, "height": 105, "sprite": "guard-seat-back", "repeat": 1},
+                {"x": 735, "y": 365, "width": 96, "height": 22, "sprite": "guard-step", "repeat": 1},
+                {"x": 735, "y": 468, "width": 96, "height": 22, "sprite": "guard-step", "repeat": 1}
+            ],
+            "dummies":[
+                {"x": 713, "y": 365, "width": 138, "height": 260, "sprite": "guard-seat-dummy", "repeat": 1},
+                {"x": 1008, "y": 286, "width": 355, "height": 274, "sprite": "parasol-dummy", "repeat": 1}
+            ],
+            "backgroundDummy":[
+                {"x": 610, "y": 580, "width": 90, "height": 21, "sprite": "waves", "repeat": 2},
+                {"x": 200, "y": 565, "width": 90, "height": 21, "sprite": "waves", "repeat": 1}
+            ],
+            "clouds":[
+                {"x": -100, "y": 100, "width": 424, "height": 114, "sprite": "sky1", "repeat": 1},
+                {"x": 400, "y": 300, "width": 242, "height": 81, "sprite": "sky2", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 900, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1400, "minX": 700, "speed": 1}
+            ],
+            "movingplatforms":[
+                
+            ],
+            "hidePlatforms":[
+            ],
+            "hideObjects":[
+                
+            ],
+            "lightCones":[
+                
+            ],
+            "lightConeBlink":[
+                
+            ],
+            "waterBottles": [
+                {"x": 773, "y": 203, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 1500, "y": 566, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1}
+            ],
+            "wins": [
+                {"x": 1820, "y": 585, "width": 126, "height": 35, "sprite": "win", "repeat": 1}
+            ]
+            
+        },
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "asfaltroad", "repeat": 52, "emptyspace": 0}
+            ],
+            "hardPlatforms":[
+                {"x": 470, "y": 519, "width": 413, "height": 120, "sprite": "carbottom-invisi", "repeat": 1},
+                {"x": 654, "y": 461, "width": 183, "height": 181, "sprite": "cartop-invisi", "repeat": 1},
+                {"x": 2520, "y": 580, "width": 233, "height": 43, "sprite": "palle", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 1000, "y": 284, "width": 121, "height": 349, "sprite": "psign", "repeat": 1},
+                {"x": 2679, "y": 416, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 2679, "y": 220, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 2900, "y": 313, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3119, "y": 239, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 3119, "y": 520, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3560, "y": 379, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2}
+            ],
+            "dummies":[
+                {"x": 0, "y": 457, "width": 1099, "height": 165, "sprite": "cars", "repeat": 1},
+                {"x": 468, "y": 457, "width": 437, "height": 180, "sprite": "car", "repeat": 1},
+                {"x": 1110, "y": 450, "width": 1247, "height": 171, "sprite": "cars2", "repeat": 1},
+                {"x": 2679, "y": 0, "width": 1339, "height": 624, "sprite": "pipes", "repeat": 1}
+            ],
+            "backgroundDummy":[
+                
+            ],
+            "clouds":[
+                {"x": -150, "y": 100, "width": 424, "height": 141, "sprite": "cloud1", "repeat": 1},
+                {"x": 500, "y": 300, "width": 424, "height": 114, "sprite": "cloud2", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 800, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1600, "minX": 750, "speed": 1},
+                {"x": 2900, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 3050, "minX": 2020, "speed": 1},
+                {"x": 3540, "y": 119, "width": 300, "height": 260, "sprite": "right", "maxX": 3900, "minX": 3450, "speed": 1}
+            ],
+            "movingplatforms":[
+                
+            ],
+            "hidePlatforms":[
+                {"x": 1750, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1, "hideSide": "right"},
+                {"x": 2107, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1, "hideSide": "left"}
+            ],
+            "hideObjects":[
+                
+            ],
+            "lightCones":[
+                
+            ],
+            "lightConeBlink":[
+                
+            ],
+            "waterBottles": [
+                {"x": 1050, "y": 228, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 1950, "y": 566, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 3015, "y": 255, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 3500, "y": 566, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1}
+            ],
+            "wins": [
+                {"x": 3930, "y": 580, "width": 111, "height": 41, "sprite": "win", "repeat": 1}
+            ]
+            
+        },
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 42, "emptyspace": 1736},
+                {"x": 5096, "y": 620, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4, "emptyspace": 0}
+            ],
+            "hardPlatforms":[
+                {"x": 2000, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 2},
+                {"x": 2130, "y": 360, "width": 130, "height": 131, "sprite": "box", "repeat": 1},
+                {"x": 2800, "y": 620, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 7},
+                {"x": 2880, "y": 565, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 6},
+                {"x": 2960, "y": 510, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 5},
+                {"x": 3040, "y": 455, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 3120, "y": 400, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 3},
+                {"x": 3200, "y": 345, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 2},
+                {"x": 5096, "y": 565, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 5096, "y": 510, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 5096, "y": 455, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 5096, "y": 400, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 5096, "y": 345, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4},
+                {"x": 5096, "y": 295, "width": 80, "height": 55, "sprite": "concretefloor", "repeat": 4}
+            ],
+            "softPlatforms":[
+                {"x": 160, "y": 337, "width": 167, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 660, "y": 337, "width": 167, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 1660, "y": 337, "width": 167, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 2160, "y": 337, "width": 167, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 2662, "y": 337, "width": 167, "height": 16, "sprite": "windowpave", "repeat": 1}
+            ],
+            "dummies":[
+                {"x": 0, "y": 0, "width": 500, "height": 673, "sprite": "wallwindow", "repeat": 2},
+                {"x": 1000, "y": 0, "width": 500, "height": 673, "sprite": "wall", "repeat": 1},
+                {"x": 1500, "y": 0, "width": 500, "height": 673, "sprite": "wallwindow", "repeat": 3},
+                {"x": 3000, "y": 0, "width": 500, "height": 673, "sprite": "wall", "repeat": 5},
+                {"x": 3360, "y": 0, "width": 289, "height": 682, "sprite": "elevatorshaft", "repeat": 6}
+            ],
+            "backgroundDummy":[
+                
+            ],
+            "clouds":[
+                {"x": -500, "y": 100, "width": 494, "height": 138, "sprite": "clouds1", "repeat": 1},
+                {"x": 200, "y": 300, "width": 242, "height": 81, "sprite": "clouds2", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 700, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1000, "minX": 400, "speed": 2},
+                {"x": 2000, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 2330, "minX": 1350, "speed": 2}
+            ],
+            "movingplatforms":[
+                {"x": 3410, "y": 0, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 1, "direction": "down"},
+                {"x": 3410, "y": 350, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 1, "direction": "down"},
+                {"x": 3699, "y": 150, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 3, "direction": "up"},
+                {"x": 3699, "y": 500, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 3, "direction": "up"},
+                {"x": 3988, "y": 250, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 2, "direction": "down"},
+                {"x": 3988, "y": 600, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 2, "direction": "down"},
+                {"x": 4277, "y": 50, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 4, "direction": "up"},
+                {"x": 4277, "y": 400, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 4, "direction": "up"},
+                {"x": 4566, "y": 350, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 1, "direction": "down"},
+                {"x": 4566, "y": 700, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 1, "direction": "down"},
+                {"x": 4855, "y": 90, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 5, "direction": "up"},
+                {"x": 4855, "y": 450, "width": 238, "height": 48, "sprite": "elevatorplat", "speed": 5, "direction": "up"}
+            ],
+            "hidePlatforms":[
+                {"x": 375, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "left"},
+                {"x": 1104, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "right"},
+                {"x": 1380, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "left"},
+                {"x": 2493, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "right"}
+            ],
+            "hideObjects":[
+                
+            ],
+            "lightCones":[
+                
+            ],
+            "lightConeBlink":[
+            ],
+            "waterBottles": [
+                {"x": 730, "y": 280, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 1300, "y": 566, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 1750, "y": 280, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 2240, "y": 280, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 3250, "y": 288, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 5150, "y": 238, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1}
+            ],
+            "wins": [
+                {"x": 5296, "y": 220, "width": 69, "height": 75, "sprite": "win", "repeat": 1}
+            ]
+            
+        },
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "dirtground", "repeat": 113, "emptyspace": 0}
+            ],
+            "hardPlatforms":[
+                
+                {"x": 1786, "y": 290, "width": 370, "height": 63, "sprite": "tilehide", "repeat": 1},
+                {"x": 4710, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 2},
+                {"x": 4840, "y": 358, "width": 130, "height": 131, "sprite": "box", "repeat": 1},
+                {"x": 5163, "y": 290, "width": 370, "height": 63, "sprite": "tilehide", "repeat": 1},
+                {"x": 5840, "y": 290, "width": 370, "height": 63, "sprite": "tilehide", "repeat": 1},
+                {"x": 6365, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 4},
+                {"x": 6495, "y": 358, "width": 130, "height": 131, "sprite": "box", "repeat": 3},
+                {"x": 6625, "y": 227, "width": 130, "height": 131, "sprite": "box", "repeat": 1},
+                {"x": 8680, "y": 290, "width": 370, "height": 63, "sprite": "tilehide", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 130, "y": 403, "width": 168, "height": 62, "sprite": "sign1", "repeat": 1},
+                {"x": 374, "y": 310, "width": 114, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 436, "y": 567, "width": 110, "height": 54, "sprite": "rattrap", "repeat": 1},
+                {"x": 1031, "y": 310, "width": 114, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 3293, "y": 317, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 3555, "y": 317, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 3817, "y": 317, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 4079, "y": 219, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 4079, "y": 528, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 4340, "y": 378, "width": 240, "height": 32, "sprite": "pipeplatform", "repeat": 1},
+                {"x": 7496, "y": 402, "width": 133, "height": 56, "sprite": "sign2", "repeat": 1},
+                {"x": 7766, "y": 310, "width": 114, "height": 16, "sprite": "windowpave", "repeat": 1},
+                {"x": 7750, "y": 567, "width": 110, "height": 54, "sprite": "rattrap", "repeat": 1},
+                {"x": 8020, "y": 402, "width": 133, "height": 56, "sprite": "sign3", "repeat": 1}
+            ],
+            "dummies":[
+                {"x": 374, "y": 131, "width": 114, "height": 179, "sprite": "window", "repeat": 1},
+                {"x": 1031, "y": 131, "width": 114, "height": 179, "sprite": "window", "repeat": 1},
+                {"x": 3272, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 3534, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 3796, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 4058, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 4319, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 4579, "y": 0, "width": 21, "height": 620, "sprite": "pipe", "repeat": 1},
+                {"x": 7766, "y": 131, "width": 114, "height": 179, "sprite": "window", "repeat": 1},
+                {"x": 8780, "y": 300, "width": 267, "height": 337, "sprite": "win", "repeat": 1}
+            ],
+            "backgroundDummy":[
+                
+            ],
+            "clouds":[
+                
+            ],
+            "enemies":[
+                {"x": 1100, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1370, "minX": 740, "speed": 1},
+                {"x": 4000, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 3815, "minX": 2900, "speed": 2},
+                {"x": 4100, "y": 265, "width": 300, "height": 260, "sprite": "right", "maxX": 4200, "minX": 3900, "speed": 0},
+                {"x": 7500, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 8200, "minX": 7260, "speed": 3},
+                {"x": 8000, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 8200, "minX": 7260, "speed": 1}
+            ],
+            "movingplatforms":[
+                
+            ],
+            "hidePlatforms":[
+                {"x": 760, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "left"},
+                {"x": 1500, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "right"},
+                {"x": 2508, "y": 463, "width": 111, "height": 163, "sprite": "can", "repeat": 1, "hideSide": "right"},
+                {"x": 2956, "y": 463, "width": 111, "height": 163, "sprite": "can", "repeat": 1, "hideSide": "left"},
+                {"x": 3816, "y": 185, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "left"},
+                {"x": 5630, "y": 463, "width": 111, "height": 163, "sprite": "can", "repeat": 1, "hideSide": "left"},
+                {"x": 7000, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "right"},
+                {"x": 7270, "y": 489, "width": 130, "height": 131, "sprite": "box", "repeat": 1, "hideSide": "left"},
+                {"x": 8348, "y": 463, "width": 111, "height": 163, "sprite": "can", "repeat": 1, "hideSide": "right"}
+            ],
+            "hideObjects":[
+                {"x": 1778, "y": 353, "width": 394, "height": 300, "sprite": "doorhide", "repeat": 1},
+                {"x": 5155, "y": 353, "width": 394, "height": 300, "sprite": "doorhide", "repeat": 1},
+                {"x": 5832, "y": 353, "width": 394, "height": 300, "sprite": "doorhide", "repeat": 1}
+            ],
+            "lightCones":[
+                {"x": 1800, "y": -35, "width": 137, "height": 656, "sprite": "lightcone", "maxX": 2360, "minX": 1620, "speed": 2},
+                {"x": 5000, "y": -35, "width": 137, "height": 656, "sprite": "lightcone", "maxX": 6200, "minX": 4965, "speed": 3},
+                {"x": 6100, "y": -35, "width": 137, "height": 656, "sprite": "lightcone", "maxX": 6200, "minX": 4965, "speed": 1}
+            ],
+            "lightConeBlink":[
+                {"x": 3070, "y": -35, "width": 137, "height": 656, "sprite": "lightcone", "range": 1400},
+                {"x": 7376, "y": -35, "width": 137, "height": 656, "sprite": "lightcone", "range": 970}
+            ],
+            "waterBottles": [
+                {"x": 1081, "y": 253, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 1930, "y": 233, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 3400, "y": 260, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 5300, "y": 233, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 6000, "y": 233, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 7050, "y": 432, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1},
+                {"x": 7496, "y": 345, "width": 19, "height": 57, "sprite": "bottlewater", "repeat": 1}
+            ],
+            "wins": [
+                {"x": 8980, "y": 220, "width": 42, "height": 244, "sprite": "doorwin-invisi", "repeat": 1}
+            ]
+            
+        }
+    ]
+}

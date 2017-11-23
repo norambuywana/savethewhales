@@ -1,0 +1,91 @@
+{
+    "levels":[
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "ground-sand", "repeat": 25}
+            ],
+            "hardPlatforms":[
+                {"x": 385, "y": 555, "width": 140, "height": 70, "sprite": "tree-stump", "repeat": 1},
+                {"x": 1008, "y": 342, "width": 355, "height": 8, "sprite": "parasol-step-invis", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 735, "y": 260, "width": 95, "height": 105, "sprite": "guard-seat-back", "repeat": 1},
+                {"x": 735, "y": 365, "width": 96, "height": 22, "sprite": "guard-step", "repeat": 1},
+                {"x": 735, "y": 468, "width": 96, "height": 22, "sprite": "guard-step", "repeat": 1}
+            ],
+            "dummies":[
+                {"x": 713, "y": 365, "width": 138, "height": 260, "sprite": "guard-seat-dummy", "repeat": 1},
+                {"x": 1008, "y": 286, "width": 355, "height": 274, "sprite": "parasol-dummy", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 900, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1572, "minX": 900, "speed": 1}
+            ]
+            
+        },
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "asfaltroad", "repeat": 52}
+            ],
+            "hardPlatforms":[
+                {"x": 470, "y": 519, "width": 413, "height": 120, "sprite": "carbottom-invisi", "repeat": 1},
+                {"x": 654, "y": 461, "width": 183, "height": 181, "sprite": "cartop-invisi", "repeat": 1},
+                {"x": 1750, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1},
+                {"x": 2107, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1},
+                {"x": 2520, "y": 580, "width": 233, "height": 43, "sprite": "palle", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 1000, "y": 284, "width": 121, "height": 349, "sprite": "psign", "repeat": 1},
+                {"x": 2679, "y": 416, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 2679, "y": 220, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 2900, "y": 313, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3119, "y": 239, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 3119, "y": 520, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3560, "y": 379, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2}
+            ],
+            "dummies":[
+                {"x": 0, "y": 457, "width": 1099, "height": 165, "sprite": "cars", "repeat": 1},
+                {"x": 468, "y": 457, "width": 437, "height": 180, "sprite": "car", "repeat": 1},
+                {"x": 1110, "y": 450, "width": 1247, "height": 171, "sprite": "cars2", "repeat": 1},
+                {"x": 2679, "y": 0, "width": 1339, "height": 624, "sprite": "pipes", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 1059, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1800, "minX": 1059, "speed": 1},
+                {"x": 2900, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 2900, "minX": 2186, "speed": 1}
+            ]
+            
+        },
+        {   
+            "ground":[
+                {"x": 0, "y": 620, "width": 80, "height": 55, "sprite": "asfaltroad", "repeat": 42x},
+                {"x": 5096, "y": 620, "width": 80, "height": 55, "sprite": "asfaltroad", "repeat": 4},
+            ],
+            "hardPlatforms":[
+                {"x": 470, "y": 519, "width": 413, "height": 120, "sprite": "carbottom-invisi", "repeat": 1},
+                {"x": 654, "y": 461, "width": 183, "height": 181, "sprite": "cartop-invisi", "repeat": 1},
+                {"x": 1750, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1},
+                {"x": 2107, "y": 519, "width": 78, "height": 116, "sprite": "metalcan", "repeat": 1},
+                {"x": 2520, "y": 580, "width": 233, "height": 43, "sprite": "palle", "repeat": 1}
+            ],
+            "softPlatforms":[
+                {"x": 1000, "y": 284, "width": 121, "height": 349, "sprite": "psign", "repeat": 1},
+                {"x": 2679, "y": 416, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 2679, "y": 220, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 2900, "y": 313, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3119, "y": 239, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2},
+                {"x": 3119, "y": 520, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 1},
+                {"x": 3560, "y": 379, "width": 239, "height": 15, "sprite": "stilladsplatform", "repeat": 2}
+            ],
+            "dummies":[
+                {"x": 0, "y": 457, "width": 1099, "height": 165, "sprite": "cars", "repeat": 1},
+                {"x": 468, "y": 457, "width": 437, "height": 180, "sprite": "car", "repeat": 1},
+                {"x": 1110, "y": 450, "width": 1247, "height": 171, "sprite": "cars2", "repeat": 1},
+                {"x": 2679, "y": 0, "width": 1339, "height": 624, "sprite": "pipes", "repeat": 1}
+            ],
+            "enemies":[
+                {"x": 1059, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 1800, "minX": 1059, "speed": 1},
+                {"x": 2900, "y": 360, "width": 300, "height": 260, "sprite": "right", "maxX": 2900, "minX": 2186, "speed": 1}
+            ]
+            
+        }
+    ]
+}
